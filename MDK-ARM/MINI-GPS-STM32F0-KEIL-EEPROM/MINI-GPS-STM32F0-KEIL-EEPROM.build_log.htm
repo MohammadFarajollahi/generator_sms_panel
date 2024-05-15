@@ -1,0 +1,176 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 1, 1, LIC=CRMW3-AR4NK-062QU-SE0RI-DSA4Y-V9YVE
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.36.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.4.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TARMCM1.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+F:\ELECTRONIC\sherkat\sherafati_generator\MDK-ARM\MINI-GPS-STM32F0-KEIL-EEPROM.uvprojx
+Project File Date:  04/26/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'MINI-GPS-STM32F0-KEIL-EEPROM'
+compiling main.c...
+../Core/Src/main.c(615): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      strcpy(id1,id);
+../Core/Src/main.c(616): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      strcpy(sleep_mode_save1,sleep_mode_save);
+../Core/Src/main.c(617): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      strcpy(speed_user_save1,speed_user_save);
+../Core/Src/main.c(618): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      strcpy(speed_state_save1,speed_state_save);
+../Core/Src/main.c(619): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      strcpy(number11,number1);
+../Core/Src/main.c(620): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      strcpy(number22,number2);
+../Core/Src/main.c(621): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      strcpy(gprs_save1,gprs_save);
+../Core/Src/main.c(622): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      strcpy(loc_save1,loc_save);
+../Core/Src/main.c(623): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      strcpy(car_number1,car_number);
+../Core/Src/main.c(624): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      strcpy(rele_state_save1,rele_state_save);
+../Core/Src/main.c(625): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      strcpy(security_save1,security_save);
+../Core/Src/main.c(626): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      strcpy(auto_security_save1,auto_security_save);
+../Core/Src/main.c(627): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      strcpy(car_mode1,car_mode);
+../Core/Src/main.c(628): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      strcpy(auto_security_time_save1,auto_security_time_save);
+../Core/Src/main.c(636): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          ee24_write(0, id1, strlen(id1), 1000);
+../Core/Src/main.c(638): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          ee24_write(10, number11, strlen(number11), 1000);
+../Core/Src/main.c(640): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          ee24_write(30, number22, strlen(number22), 1000);
+../Core/Src/main.c(642): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          ee24_write(50, car_number1, strlen(car_number1), 1000);
+../Core/Src/main.c(644): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          ee24_write(70, sleep_mode_save1, strlen(sleep_mode_save1), 1000);
+../Core/Src/main.c(646): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          ee24_write(75, speed_user_save1, strlen(speed_user_save1), 1000);
+../Core/Src/main.c(648): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          ee24_write(85, speed_state_save1, strlen(speed_state_save1), 1000);
+../Core/Src/main.c(650): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          ee24_write(90, gprs_save1, strlen(gprs_save1), 1000);
+../Core/Src/main.c(652): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          ee24_write(95, rele_state_save1, strlen(rele_state_save1), 1000);
+../Core/Src/main.c(654): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          ee24_write(100, security_save1, strlen(security_save1), 1000);
+../Core/Src/main.c(656): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          ee24_write(105, auto_security_save1, strlen(auto_security_save1), 1000);
+../Core/Src/main.c(658): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          ee24_write(110, auto_security_time_save1, strlen(auto_security_time_save1), 1000);
+../Core/Src/main.c(660): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          ee24_write(115, car_mode1, strlen(car_mode1), 1000);
+../Core/Src/main.c(662): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          ee24_write(120, loc_save1, strlen(loc_save1), 1000);
+../Core/Src/main.c(1355): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      strcpy(id1,id);
+../Core/Src/main.c(1356): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      strcpy(sleep_mode_save1,sleep_mode_save);
+../Core/Src/main.c(1357): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      strcpy(speed_user_save1,speed_user_save);
+../Core/Src/main.c(1358): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      strcpy(speed_state_save1,speed_state_save);
+../Core/Src/main.c(1359): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      strcpy(number11,number1);
+../Core/Src/main.c(1360): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      strcpy(number22,number2);
+../Core/Src/main.c(1361): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      strcpy(gprs_save1,gprs_save);
+../Core/Src/main.c(1362): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      strcpy(loc_save1,loc_save);
+../Core/Src/main.c(1363): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      strcpy(car_number1,car_number);
+../Core/Src/main.c(1364): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      strcpy(rele_state_save1,rele_state_save);
+../Core/Src/main.c(1365): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      strcpy(security_save1,security_save);
+../Core/Src/main.c(1366): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      strcpy(auto_security_save1,auto_security_save);
+../Core/Src/main.c(1367): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      strcpy(car_mode1,car_mode);
+../Core/Src/main.c(1368): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      strcpy(auto_security_time_save1,auto_security_time_save);
+../Core/Src/main.c(1379): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          ee24_write(0, id1, strlen(id1), 1000);
+../Core/Src/main.c(1381): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          ee24_write(10, number11, strlen(number11), 1000);
+../Core/Src/main.c(1383): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          ee24_write(30, number22, strlen(number22), 1000);
+../Core/Src/main.c(1385): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          ee24_write(50, car_number1, strlen(car_number1), 1000);
+../Core/Src/main.c(1387): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          ee24_write(70, sleep_mode_save1, strlen(sleep_mode_save1), 1000);
+../Core/Src/main.c(1389): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          ee24_write(75, speed_user_save1, strlen(speed_user_save1), 1000);
+../Core/Src/main.c(1391): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          ee24_write(85, speed_state_save1, strlen(speed_state_save1), 1000);
+../Core/Src/main.c(1393): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          ee24_write(90, gprs_save1, strlen(gprs_save1), 1000);
+../Core/Src/main.c(1395): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          ee24_write(95, rele_state_save1, strlen(rele_state_save1), 1000);
+../Core/Src/main.c(1397): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          ee24_write(100, security_save1, strlen(security_save1), 1000);
+../Core/Src/main.c(1399): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          ee24_write(105, auto_security_save1, strlen(auto_security_save1), 1000);
+../Core/Src/main.c(1401): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          ee24_write(110, auto_security_time_save1, strlen(auto_security_time_save1), 1000);
+../Core/Src/main.c(1403): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          ee24_write(115, car_mode1, strlen(car_mode1), 1000);
+../Core/Src/main.c(1405): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+          ee24_write(120, loc_save1, strlen(loc_save1), 1000);
+../Core/Src/main.c(2769): warning:  #550-D: variable "batt_sms"  was set but never used
+          int batt_sms;
+../Core/Src/main.c: 57 warnings, 0 errors
+linking...
+Program Size: Code=35052 RO-data=516 RW-data=612 ZI-data=6444  
+FromELF: creating hex file...
+"MINI-GPS-STM32F0-KEIL-EEPROM\MINI-GPS-STM32F0-KEIL-EEPROM.axf" - 0 Error(s), 57 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F0xx_DFP.2.1.0.pack
+                Keil.STM32F0xx_DFP.2.1.0
+                STMicroelectronics STM32F0 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_MINI-GPS-STM32F0-KEIL-EEPROM
+  C:\Users\Mohammad\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  C:\Users\Mohammad\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+      Include file:  CMSIS\Core\Include\tz_context.h
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
